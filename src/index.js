@@ -24,6 +24,8 @@ class Add extends React.Component {
     })
     
   }
+
+  
   
 
   render() {
@@ -53,6 +55,12 @@ root.render(
     <Add counter = {23}/>        
 </React.StrictMode>  
 );
+
+const fs = () => {
+  console.log(this);
+}
+
+fs()
 
 
 
